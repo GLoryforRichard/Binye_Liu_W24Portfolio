@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binye Liu | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Binye Liu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Binye Liu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Binye Liu profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Binye Liu</h1>
+        <p class="section__text__p2">Fullstack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ATSResume1.0.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/binye-liu-ab5bba2b5/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/GLoryforRichard'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About Section-->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>Developed multiple full-stack applications using a variety of languages and frameworks.<br />Skilled in both frontend and backend development.</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>George Brown College <br/>Advanced Diploma in Computer Programming and Analysis <br/>September 2021 – April 2024</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a web developer with a strong foundation in multiple programming languages and frameworks, including Java, JavaScript, Python, and more. With over two years of experience in full-stack development, I have successfully built and launched various projects, such as e-commerce platforms and food-ordering systems, demonstrating my ability to deliver complex solutions efficiently. My educational background from George Brown College has equipped me with a deep understanding of computer programming and analysis, enabling me to tackle diverse technical challenges with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Technical Proficiency</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Languages -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>C#</h3>
+                  <p>Knowledgeable</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>PHP</h3>
+                  <p>Knowledgeable</p>
+                </div>
+              </article>
+            </div>
+          </div>
+    
+          <!-- Frameworks & Libraries -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks & Libraries</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Spring Boot</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>NodeJS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>React</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>NextJs</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Express</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>.NET Core</h3>
+                  <p>Knowledgeable</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- E-commerce Project -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="E-commerce Project" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">E-commerce Platform</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-store'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerence.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+    
+          <!-- Food Ordering Platform -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Food Ordering Platform" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Food Ordering Platform</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-admin'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerce-admin-kappa-murex.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+    
+          <!-- Friend Matching Application -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Friend Matching Application" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Friend Matching Application</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-admin'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerce-admin-kappa-murex.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+    
+          <!-- Compose Search Engine -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-4.png" alt="Compose Search Engine" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Compose Search Engine</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-admin'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerce-admin-kappa-murex.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+    
+          <!-- Cryptocurrency Market Project -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-5.png" alt="Cryptocurrency Market Project" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Cryptocurrency Market Analysis</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-admin'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerce-admin-kappa-murex.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+    
+          <!-- Imaginary Project -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-6.png" alt="Imaginary Project" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Interactive Learning Platform</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/GLoryforRichard/ecommerce-admin'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://ecommerce-admin-kappa-murex.vercel.app/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section-->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lby2024gl@gmail.com ">lby2024gl@gmail.com </a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/binye-liu-ab5bba2b5/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Binye Liu. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
